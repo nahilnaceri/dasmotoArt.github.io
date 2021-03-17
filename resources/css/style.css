@@ -1,0 +1,56 @@
+* {
+  /* Remove default browser styles */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 8px;
+  font-family: Helvetica;
+}
+
+header {
+  margin: 67px 0;
+  background-image: url("../images/headerImage.jpeg");
+  /* background-size: cover; */
+}
+header h1 {
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+  padding: 20px 0;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #fff;
+  margin: 27px 0;
+}
+h3 {
+  margin: 19px 0;
+}
+img {
+  height: 250px;
+}
+p {
+  margin: 16px 0;
+}
+
+#brushes h2 {
+  background-color: mediumspringgreen;
+}
+#frames h2 {
+  background-color: lightcoral;
+}
+
+#paint h2 {
+  background-color: skyblue;
+}
+
+.pricing {
+  font-weight: bold;
+  color: blue;
+}
